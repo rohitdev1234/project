@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    margin: 0%;
+    padding: 0%;
+}
+header{
+   top: 0;
+   position:sticky;
+}
+
+.black{
+    
+    color: blue;
+    background-color: chocolate;
+    padding: 5px;
+
+}
+a{
+    text-align: left;
+    color: aliceblue;
+    text-decoration: none;
+     padding-right: 10px;
+}
+a:hover{
+color: darkcyan;
+}
+a:active{
+color: darkolivegreen;
+}
+.para{
+    float: right;
+   margin: -25px;
+   margin-right: 30px;
+   font-size: larger;
+   margin-top: -35px;
+  
+}
+/* .para{
+    color: brown;
+background-color: darkmagenta;
+} */
+ h2,h3{
+    text-align: left;
+    text-decoration: wavy;
+    /* margin: 5px 5px 5px 5px;
+    padding: 10px 10px 10px 10px; */
+    background-color: black;
+    color: aliceblue;
+    margin: -130px;
+    padding:300px;
+ }
+ img{
+    float: right;
+    border-radius: 75%;
+    margin-top: 30px;
+    margin-right: -1px;
+ }
+ #image{
+    float: right;
+    border-radius: 75%;
+     margin-top: 200px;
+     margin-right: -150px;
+ }
+ /* .biit{
+   height: 200px;
+   width: 100px;
+   background-color: rgb(109, 172, 208);
+   overflow: scroll;
+ }  */
+#allcards{
+   display: flex;
+   flex-direction: row;
+}
+ .card{
+   height: 18em;
+   width: 15em;
+   border: 10px solid rgb(224, 184, 184);
+   border-radius: 1em;
+   margin-left: 150px;
+   margin-right: 50px;
+   margin-top: 150px;
+   padding: 20px;
+   background-color: antiquewhite;
+   flex-basis: 20px;
+ }
+ .card img{
+   max-width: 100%;
+   border-radius: 0.9em 0.9em 0.9em;
+   border-bottom: 2px solid rgb(117, 38, 38);
+   margin-top: -5px;
+  
+ }
+.card-body {
+   padding: 0 1em 1em;
+   margin-bottom: 7em;
+
+}
+#biit{
+   padding: 0.8em 1.5em ;
+   border: 2px solid rgb(154, 45, 45);
+   border-radius: 1.5em;
+   background-color: rgb(17, 78, 131);
+   font-weight: bold;
+}
+ .card1{
+   height: 300px;
+   width: 300px;
+   border: 1px solid rgb(42, 128, 64);
+   border-radius: 1em;
+   margin-left: 900px; 
+   margin: 1em 150em 100em 10em;
+   padding: 20px;
+   background-color: antiquewhite; 
+  }
+
+ .card1 img{
+   height: 200px;
+   width: 300px;
+   border-radius: 0.9em 0.9em 0.9em;
+   border-bottom: 2px solid rgb(117, 38, 38);
+   margin-top: -5px;
+  
+ }
+.body2 {
+   font-size: x-large;
+padding-top: 150px;
+margin-right: 50px;
+}
+#chilly{
+   padding: 5px ;
+   border: 3px solid rgb(154, 45, 45);
+   border-radius: 20px;
+   background-color: rgb(17, 78, 131);
+   font-size: 20px;
+}
+ .card2{
+   height: 300px;
+   width: 300px;
+   border: 1px solid rgb(42, 117, 128);
+   border-radius: 1em;
+   padding: 20px;
+   margin: 100px;
+   margin-left: 400px;
+   background-color: antiquewhite;
+ } 
+ .card2 img{
+   height: 200px;
+   width: 300px;
+   border-radius: 20px;
+   border-bottom: 2px solid rgb(117, 38, 38);
+   margin-top: 5px;
+  }
+  .body3 {
+   font-size: medium;
+padding-top: 100px;
+margin-right: 50px;
+font-size: 30px;
+}
+#chilly2{
+   padding: 5px ;
+   border: 3px solid rgb(154, 45, 45);
+   border-radius: 10px;
+   background-color: rgb(17, 78, 131);
+   font-size: 20px;
+}
+/* ul{
+   display: flex;
+    list-style-type: none;
+    flex-direction: row;
+}
+li{
+   padding: 20px;
+   color: aliceblue;
+}
+footer{
+   background-color: black;
+} */
+ /* #para2{
+    height: 300px;
+    width: 400px;
+    border: 20px solid black;
+    background-position: right;
+    background-color:black ;
+    border-radius: 1000px;
+ }
+
+ 

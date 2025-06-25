@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!-- <html>
+    <head>
+        <link rel="stylesheet" href="sneha.css">
+         <script src="../javascript/sneha.js">
+        </script> -->
+<!-- </head>
+<body>
+        <h1>hello! i am sneha sharma  </h1>
+        <p id=""para></p>
+        <p class="para1"></p>
+        <h2 class="para1"></h2>
+   <h2 class=""para1></h2>
+</body>
+</html>  -->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DOM manipulation example</title>
+    </head>
+<body>
+    <h1 id="oldheading">new heading</h1>
+
+    <button id="changebutton">replace para button</button>
+    <button id="removebutton">remove para button</button>
+    <button id="addbutton">add para button</button>
+
+    <script>
+
+
+// const oldElement = document.getElementById("myOldElement");
+// const newElement = document.createElement("p");
+// newElement.textContent = "Naya paragraph";
+// oldElement.replaceWith('newheading,oldheading');
+
+// const element = document.getElementById("myElement");
+// element.remove('h2')
+
+
+// const parent = document.getElementById("myParent");
+// const newElement = document.createElement("p");
+// newElement.textContent = "Naya paragraph";
+// parent.appendChild(newElement);
+
+
+
+        // var newParagraph = document.createElement('p');
+        // newParagraph.textContent = "this is a new paragraph .";
+        // document.body.appendChild(newParagraph);
+
+document.getElementById("changebutton").addEventListener('click',function(){
+var newheading = document.createElement('h2');
+newheading.textContent = "eshu sharma replacing the old one!";
+var oldHeading = document.getElementById('oldheading');
+document.body.replaceChild(newheading,oldheading);
+});
+
+// ocument.getElementById("removebutton").addEventListener('click',function(){
+// var newheading = document.createElement('h2');
+// newheading.textContent = "eshu sharma replacing the old one!";
+// var oldHeading = document.getElementById('oldheading');
+// document.body.removeChild(remove);
+// });
+
+// document.getElementById('removebutton').addEventListener('click',function(){
+//     var newheading = document.createElement('h1');
+//     var oldHeading = document.getElementById('sneha sharma');
+//     document.body.removeChild(newParagraph);
+// });
+
+// document.getElementById("addbutton").addEventListener('click',function(){
+// var newParagraph = document.createElement('h2');
+// newParagraph.textContent = "this is a new paragraph .";
+//         document.body.appendChild(newParagraph);
+// });
+
+    </script>
+</body>
+</html>

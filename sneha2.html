@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DOM manipulation example</title>
+    </head>
+<body>
+    <h1 id="oldheading">this is the old heading</h1>
+
+    <button id="changebutton">change heading</button>
+    <button id="removebutton">remove paragraph</button>
+
+    <div id="contentsection"></div>
+
+    <script>
+        var newParagraph = document.createElement('p');
+        newParagraph.textContent = "this is a new paragraph added dynamically.";
+        document.body.appendChild(newParagraph);
+
+document.getElementById("changebutton").addEventListener('click',function(){
+var newheading = document.createElement('h2');
+newheading.textContent = "this is a new heading replacing the old one!";
+var oldHeading = document.getElementById('oldheading');
+document.body.replaceChild(newheading,oldheading);
+});
+
+document.getElementById('removebutton').addEventListener('click',function(){
+    document.body.removeChild(newParagraph);
+});
+
+var newDiv = document.createElement('div');
+newDiv.textContent = "this is a new div added inside the content section.";
+var contentsection = document.getElementById('contentsection');
+contentsection.appendChild(newDiv);
+
+    </script>
+</body>
+</html>

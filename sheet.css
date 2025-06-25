@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h4{
+    text-align: center;
+    color: rgb(230, 230, 236);
+    background-color: rgb(74, 69, 66);
+    padding: 5px;
+}
+a{
+    text-align: left;
+    color: rgb(15, 17, 19);
+    text-decoration: none;
+     padding-right: 10px;
+}
+a:hover{
+color: darkcyan;
+}
+a:active{
+color: darkolivegreen;
+}
+.para{
+    color: black;
+   font-size: medium;
+margin-left: 300px;
+margin-top: 10px;
+}
+img{
+    float: right;
+    height: 400px;
+    width: 500px;
+    padding-bottom: 300px;
+    margin-bottom: 300px;
+    margin-top: 100px;
+    margin-right: 200px;
+}
+/* h1{
+    color: black;
+    margin-top: 200px;
+    margin-right: 80px;
+    margin-left: 150px;
+   padding: 50px;
+}
+h3{
+    color: black;
+    margin-left: 150px;
+    margin-top: 2px;
+    margin-right: 80px; 
+ } */
+
+#para2{
+    text-align: center;
+    color: black;
+    font-size: larger;
+    padding: 150px;
+   
+}
+#main{
+    font-size: xx-large;
+    font-weight: 500;
+    margin-left: 15%;
+    margin-top: 10%;
+}
+#rr{
+    margin-left: 15%;
+    font-size: large;
+}
+button{
+    margin-left: 15%;
+    margin-top: 1%;
+    border-radius: 25px;
+    padding: 20px;
+    color: white;
+    background-color: black;
+}
+/* .link{
+    float: right;
+    margin-top: -21%;
+    margin-right:20px ;
+}*/
+
+#search{
+    float: right;
+    margin-right: -400px;
+    margin-top: -330px;
+    font-weight: 200;
+    color: black;
+ }
+
+ #login{
+    float: right;
+    margin-right: -600px;
+    margin-top: -325px;
+    font-size: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+ }
+ #icon1{
+    float:right;
+    margin-top: -330px;
+    margin-right: -500px;
+
+ }
+ #icon2{
+    float: right;
+    margin-right: -450px;
+    margin-top: -330px;
+ }
